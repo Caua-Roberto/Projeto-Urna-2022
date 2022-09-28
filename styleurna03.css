@@ -121,6 +121,26 @@ nav{
 .div_numeros{
   height: 50px;
 }
+.tabela{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+#tb1{
+  margin-right: 7px;
+}
+#tb2{
+  margin-right: 7px;
+}
+#tb3{
+  margin-right: 7px;
+}
+#tb4{
+  margin-right: 7px;
+}
+#tb5{
+  margin-right: 7px;
+}
 
 .numero{
   float: left; 
