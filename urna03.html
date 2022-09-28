@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="styleurna03.css">
+</head>
+<body>
+    <nav>Simulador de Urna Eletrônica</nav>
+      <div class="tabela">
+        <table id="tb1" border="1" style="margin-top: 10px; text-align: center;">
+            <tr>
+                <th style="color: white;" bgcolor="#10025d" height="100">Candidatos ( Dep. Federal )</th>
+                <th style="color: white;" height="100" bgcolor="#10025d">Número</th>
+                <th style="color: white;" bgcolor="#10025d">Partidos</th>
+            </tr>
+            <tr>
+                <td width="65%">Rodrigo Faro</td>
+                <td widht="65%" >Record TV</td>
+                <td>3456</td>
+            </tr>
+            <tr>
+                <td >Celso Portioli</td>
+                <td>SBT</td>
+                <td>2412</td>
+            </tr>
+            <tr>
+              <td>Faustão</td>
+              <td>Band</td>
+              <td>6789</td>
+            </tr>
+        </table>
+        <br>
+        <table id="tb2" border="1" style="margin-top: 10px; text-align: center;">
+            <tr>
+                <th style="color: white;" bgcolor="#10025d" height="100">Candidatos ( Dep. Estadual )</th>
+                <th style="color: white;" height="100" bgcolor="#10025d">Número</th>
+                <th style="color: white;" bgcolor="#10025d">Partidos</th>
+            </tr>
+            <tr>
+                <td width="65%">Rodrigo Faro</td>
+                <td widht="65%" >Record TV</td>
+                <td>3456</td>
+            </tr>
+            <br>
+            <tr>
+                <td >Celso Portioli</td>
+                <td>SBT</td>
+                <td>2412</td>
+            </tr>
+            <tr>
+              <td>Faustão</td>
+              <td>Band</td>
+              <td>6789</td>
+            </tr>
+        </table>
+        <table id="tb3" border="1" style="margin-top: 10px; text-align: center;">
+            <tr>
+                <th style="color: white;" bgcolor="#10025d" height="100">Candidatos ( Dep. Federal )</th>
+                <th style="color: white;" height="100" bgcolor="#10025d">Número</th>
+                <th style="color: white;" bgcolor="#10025d">Partidos</th>
+            </tr>
+            <tr>
+                <td width="65%">Rodrigo Faro</td>
+                <td widht="65%" >Record TV</td>
+                <td>3456</td>
+            </tr>
+            <tr>
+                <td >Celso Portioli</td>
+                <td>SBT</td>
+                <td>2412</td>
+            </tr>
+            <tr>
+              <td>Faustão</td>
+              <td>Band</td>
+              <td>6789</td>
+            </tr>
+        </table>
+        <table id="tb4" border="1" style="margin-top: 10px; text-align: center;">
+            <tr>
+                <th style="color: white;" bgcolor="#10025d" height="100">Candidatos ( Dep. Federal )</th>
+                <th style="color: white;" height="100" bgcolor="#10025d">Número</th>
+                <th style="color: white;" bgcolor="#10025d">Partidos</th>
+            </tr>
+            <tr>
+                <td width="65%">Rodrigo Faro</td>
+                <td widht="65%" >Record TV</td>
+                <td>3456</td>
+            </tr>
+            <tr>
+                <td >Celso Portioli</td>
+                <td>SBT</td>
+                <td>2412</td>
+            </tr>
+            <tr>
+              <td>Faustão</td>
+              <td>Band</td>
+              <td>6789</td>
+            </tr>
+        </table>
+        <table id="tb5" border="1" style="margin-top: 10px; text-align: center;">
+            <tr>
+                <th style="color: white;" bgcolor="#10025d" height="100">Candidatos ( Dep. Federal )</th>
+                <th style="color: white;" height="100" bgcolor="#10025d">Número</th>
+                <th style="color: white;" bgcolor="#10025d">Partidos</th>
+            </tr>
+            <tr>
+                <td width="65%">Rodrigo Faro</td>
+                <td widht="65%" >Record TV</td>
+                <td>3456</td>
+            </tr>
+            <tr>
+                <td >Celso Portioli</td>
+                <td>SBT</td>
+                <td>2412</td>
+            </tr>
+            <tr>
+              <td>Faustão</td>
+              <td>Band</td>
+              <td>6789</td>
+            </tr>
+        </table>
+      </div>
+    <div class="urna">
+        <div class="tela">
+            <div class="info">
+                <div class="div_left">
+                    <div class="seuVoto">
+                        <span>SEU VOTO PARA</span>
+                    </div>
+                    <div class="cargo">
+                        <span>CARGO</span>
+                    </div>
+                    <div class="div_numeros">
+                        <div class="numero pisca"></div>
+                        <div class="numero"></div>
+                    </div>
+                    <div class="descricao">descricao</div>
+                </div>
+                <div class="div_right">imagens</div>
+            </div>
+            <div class="rodape_tela">
+                Aperte a tecla: <br>
+                CONFIRMA para CONFIRMAR este voto <br> 
+                CORRIGE para REINICIAR este voto 
+            </div>        
+        </div>
+        <div class="teclado">
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick= clicou(1)>1</div>
+                <div class="teclado_botao" onclick= clicou(2)>2</div>
+                <div class="teclado_botao" onclick= clicou(3)>3</div>
+            </div>
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick= clicou(4)>4</div>
+                <div class="teclado_botao" onclick= clicou(5)>5</div>
+                <div class="teclado_botao" onclick= clicou(6)>6</div>
+            </div>
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick= clicou(7)>7</div>
+                <div class="teclado_botao" onclick= clicou(8)>8</div>
+                <div class="teclado_botao" onclick= clicou(9)>9</div>
+            </div>
+            <div class="teclado_linha">
+                <div class="teclado_botao" onclick= clicou(0)>0</div>
+            </div>
+            <div class="teclado_linha">
+                <div class="teclado_botao btn_branco" onclick= branco()><b>BRANCO</b></div>
+                <div class="teclado_botao btn_corrige" onclick= corrige()><b>CORRIGE</b></div>
+                <div class="teclado_botao btn_confirma" onclick= confirma()><b>CONFIRMA</b></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="etapas03.js"></script>
+    <script src="urna03.js"></script>
+</body>
+</html>
